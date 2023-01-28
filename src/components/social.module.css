@@ -1,0 +1,6 @@
+.socials {
+    flex: auto;
+}
+.socials > a {
+    padding: 0.25em;
+}
