@@ -35,7 +35,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <div className={socialsClass}>
         {socials.map((social) =>
 
-          <a href={social.url}><img src={social.icon} style={{ display: "inline-block", height: "1em" }}></img></a>
+          <a href={social.url} {...social.extra_tags}><img src={social.icon} style={{ display: "inline-block", height: "1em" }}></img></a>
         )}</div>
     </Layout>)
 }
